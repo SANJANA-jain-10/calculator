@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    
+
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b0,badd,bsub,bmul,bdiv,bequal;
     TextView t1;
     int number1,number2,result;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         bmul= (Button)findViewById(R.id.mul);
         bdiv= (Button)findViewById(R.id.div);
         bequal= (Button)findViewById(R.id.equal);
-
+//halloooo honneeyeyyy
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
